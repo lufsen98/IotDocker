@@ -9,7 +9,7 @@ def connect_to_server(host,part):
 
     #recive data from server
     data = client_socket.recv(1024) #buffer size 1024 bytes
-    print("Recived from server:" data.decode()) # decode bytes to string
+    print("Recived from server:", data.decode()) # decode bytes to string
 
     # close the socket
     client_socket.close()
