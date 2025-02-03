@@ -1,6 +1,6 @@
 import socket
 
-def connect_to_server(host,part):
+def connect_to_server(host,port):
     #create a socket object using ipv4 and TCP protokoll
     client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
