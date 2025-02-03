@@ -5,7 +5,7 @@ def start_server(host, port):
     server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
     #bind the socket to the address and port
-    server_socket.bind(host,port))
+    server_socket.bind((host,port))
 
     #Enable the server to accept connections, with 1 client in the waiting que 
     server.socket.listen(1)
