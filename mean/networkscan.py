@@ -26,8 +26,8 @@ def scan_network(network,Ports):
     for ip in ipaddress.IPv4Network(network):
         scan_host(str(ip),ports)
 
-network = " "
+network = "192.168.2.21"
 
-ports_to_scan = []
+ports_to_can = [80]
 
 scan_network(network,ports_to_scan)

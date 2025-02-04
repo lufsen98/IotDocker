@@ -19,7 +19,7 @@ def scan_ports(host,start_port,end_port):
             print(f"Port {port} is closed")
 
 
-target_host =""
+target_host ="192.168.2.21"
 start_port = 1
 end_port = 100
 scan_ports (target_host, start_port, end_port)
