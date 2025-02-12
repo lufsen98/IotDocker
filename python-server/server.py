@@ -26,4 +26,4 @@ def start_server(host, port):
     server_socket.close()
 
 # Start the server with local host IP and port 12345
-start_server('0.0.0.0', 12345)
+start_server('0.0.0.0', 8080)

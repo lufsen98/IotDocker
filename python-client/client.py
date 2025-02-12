@@ -15,4 +15,4 @@ def connect_to_server(host,port):
     client_socket.close()
 
 #connect to the server with local host ip and port 12345
-connect_to_server ('192.168.2.11',12345)
+connect_to_server ('localhost',8080)
